@@ -1,0 +1,242 @@
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+* {
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+}
+.wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+	display: block;
+	padding: 40px;
+}
+h1 {
+	font-size: 31px;
+	margin: 0 0 22px;
+	font-weight: 300;
+}
+h2 {
+	font-size: 16px;
+	line-height: 23px;
+	margin: 0 0 20px;
+}
+h3 {
+	font-size: 19px;
+	margin: 0 0 21px;
+	font-weight: 300;
+}
+a {
+	color: #61aedd;/*CAMBIA CON ADMINISTRADOR*/
+}
+a:hover {
+	color: #438fbd;/*CAMBIA CON ADMINISTRADOR*/
+}
+a img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+a:hover img {
+	opacity: 1;
+}
+.btn {
+	background-color: #61aedd;/*CAMBIA CON ADMINISTRADOR*/
+	color: #fff;
+	padding: 10px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	-webkit-transition: background-color 0.05s linear;
+    -moz-transition:	background-color 0.05s linear;
+    -o-transition: 		background-color 0.05s linear;
+    -ms-transition: 	background-color 0.05s linear;
+    transition: 		background-color 0.05s linear;
+}
+.btn:hover {
+	background-color: #438fbd;/*CAMBIA CON ADMINISTRADOR*/
+	color: #fff;
+}
+p {
+	font-size: 16px;
+	line-height: 23px;
+	margin: 0 0 20px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.info {
+	line-height: 20px;
+	font-style: italic;
+	font-size: 13px;
+}
+#tinymce {
+	padding: 40px !important;
+}
+article ol,
+#tinymce ol,
+article ul,
+#tinymce ul {
+	list-style-type: none;
+	counter-reset: my-badass-counter;
+	margin: 40px 0;
+	padding: 0;
+}
+article ol,
+#tinymce ol {
+	padding-left: 50px;
+}
+article ul,
+#tinymce ul {
+	padding-left: 25px;
+}
+article ul ul,
+#tinymce ul ul,
+article ol li,
+#tinymce ol li {
+	margin: 20px 0;
+}
+article ul li,
+#tinymce ul li {
+	margin: 15px 0;
+}
+article li:before,
+#tinymce li:before {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #61aedd;/*CAMBIA CON ADMINISTRADOR*/
+	position: absolute;
+	z-index: 0;
+}
+article ul li:before,
+#tinymce ul li:before {
+	width: 10px;
+	height: 10px;
+	content: "\00a0";
+	margin: 7px 0 0 -25px;
+}
+article ol li:before,
+#tinymce ol li:before {
+	content: counter(my-badass-counter);
+	counter-increment: my-badass-counter;
+	color: #fff;
+	width: 35px;
+	height: 23px;
+	text-align: center;
+	padding: 6px 0;
+	margin: -7px 0 0 -50px;
+}
+article ol li li:before,
+#tinymce ol li li:before {
+	content: counter(my-badass-counter, lower-latin);
+}
+iframe {
+	margin-top: 10px;
+}
+@media all and (max-width: 980px) {
+	iframe {
+		margin: 20px auto;
+		display: block;
+	}
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+	display: block;
+	margin: 40px 0;
+}
+.aligncenter {
+    display: block;
+    margin: 40px auto;
+}
+.alignright {
+    float:right;
+    margin: 4px 0 40px 40px;
+}
+.alignleft {
+    float: left;
+    margin: 4px 40px 40px 0;
+}
+@media all and (max-width: 980px) {
+	.size-full,
+	.size-large,
+	.size-medium,
+	.size-thumbnail,
+	.alignleft,
+	.alignright,
+	.aligncenter,
+	.alignnone {
+		display: block;
+		margin: 40px auto;
+		float: none;
+	}
+}
+
+/* TABLES, COLUMNAS */
+table {
+	width: 100%;
+	margin: 0 0 20px;
+}
+td {
+	padding: 0 20px;
+	vertical-align: top;
+}
+td img {
+	width: 100%;
+}
+.mce-resizehandle {
+	display: none;
+}
+td.col_der {
+	padding-right: 0;
+}
+td.col_izq {
+	padding-left: 0;
+}
+.two_col td {
+	width: 50%;
+}
+.three_col td {
+	width: calc(33.3% + 40px);
+}
+.three_col td.col_der {
+	width: calc(33.3% + 20px);
+}
+.three_col td.col_izq {
+	width: calc(33.3% + 20px);
+}
+.four_col td {
+	width: calc(25% + 40px);
+}
+.four_col td.col_der {
+	width: calc(25% + 20px);
+}
+.four_col td.col_izq {
+	width: calc(25% + 20px);
+}
+@media all and (max-width: 980px) {
+	table {
+		margin: 0;
+	}
+	.two_col td,
+	.three_col td,
+	.four_col td,
+	.three_col td.col_der,
+	.four_col td.col_der,
+	.three_col td.col_izq,
+	.four_col td.col_izq {
+		width: 100%;
+		padding: 0 0 20px;
+		display: block;
+	}
+	table img {
+		width: auto;
+	}
+}

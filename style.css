@@ -1,0 +1,86 @@
+/*
+Theme Name: New Kadampa Tradition
+Theme URI: http://www.kadampa.org/
+Author: Matias Diaz
+Author URI: http://www.matidiaz.com.ar/
+Description: This theme was created for meditation centers of the New Kadampa Tradition.
+Version: 4.0
+License: 
+License URI: 
+Tags: buddhism, kadampa, ong, new-kadampa-tradition, kelsang, gueshe-la
+Text Domain: nkt
+
+This theme was created for meditation centers of the New Kadampa Tradition.
+Este tema fue creado para los centros de meditación de la Nueva Tradición Kadampa.
+Este tema foi criado para centros de meditação da Nova Tradição Kadampa.
+*/
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin: 1em 0;
+    padding: 0;
+}
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    resize: vertical;
+}
+.browsehappy {
+    margin: 0.2em 0;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    background-color: #61aedd;/*CAMBIA CON ADMINISTRADOR*/
+}
+article {
+    background-color: #fff;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+
+.wp-caption {
+
+}
+.wp-caption-text {
+
+}
+.sticky {
+
+}
+.gallery-caption {
+
+}
+.bypostauthor {
+    
+}

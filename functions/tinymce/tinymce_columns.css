@@ -1,0 +1,19 @@
+i.mce-i-columnas {
+    font: 400 20px/1 dashicons;
+    padding: 0 2px 0 0;
+    vertical-align: top;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: -2px;
+}
+.mce-i-columnas:before {
+    content: "\f478";
+}
+/* SIZE DE LA FUENTE EN EL BOTON "FORMATO" */
+.mce-menu-item .mce-ico,
+.mce-menu-item .mce-text {
+	font-size: 14px !important;
+	font-weight: normal !important;
+    font-style: normal !important;
+}

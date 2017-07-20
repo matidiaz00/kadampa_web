@@ -1,0 +1,63 @@
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+footer {
+    background-color: #438fbd;/*CAMBIA CON ADMINISTRADOR*/
+}
+footer h3,
+footer p,
+footer a,
+#info_footer {
+    color: #fff;
+    text-align: left;
+}
+footer p,
+#info_footer {
+    font-size: 13px;
+}
+#info_footer {
+    text-align: center;
+    margin: 0;
+    padding: 10px 40px;
+}
+footer .wrapper div {
+    display: inline-block;
+    vertical-align: top;
+    width: 270px;
+    text-align: center;
+}
+#footer_center {
+    margin: 0 40px;
+}
+footer p {
+    line-height: 20px;
+    font-style: italic;
+}
+footer img {
+    width: 100%;
+    height: 160px;
+    display: block;
+    margin-bottom: 20px;
+}
+footer .btn {
+    display: inline-block;
+    text-align: center;
+}
+footer .btn:hover {
+    background-color: #57a5d4;/*CAMBIA CON ADMINISTRADOR*/
+}
+@media all and (max-width: 985px) {
+    footer h3,
+    footer p,
+    footer a,
+    #info_footer {
+        text-align: center;
+    }
+    footer .wrapper div {
+        display: block;
+        margin: 0 auto;
+    }
+    #footer_center {
+        margin: 60px auto;
+    }
+}

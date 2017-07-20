@@ -1,0 +1,69 @@
+/* ==========================================================================
+   GENERALES
+   ========================================================================== */
+#wpadminbar/*NAV SUPERIOR*/,
+#wpfooter/*FOOTER*/ {
+	display: none !important;
+}
+html.wp-toolbar/*PADDING SUPERIOR AL ELIMINAR EL NAV SUPERIOR*/ {padding: 0;}
+/* ==========================================================================
+   MENU ASIDE
+   ========================================================================== */
+#menu-dashboard/*MENU HOME*/,
+.wp-menu-separator/*SEPARADORES EN EL MENU*/,
+#menu-posts/*MENU ARTICULOS*/,
+#menu-pages/*MENU PAGINAS*/,
+#menu-media/*MENU MULTIMEDIA*/,
+#menu-comments/*MENU COMENTARIOS*/,
+#menu-appearance/*MENU PERSONALIZAR*/,
+#menu-plugins/*MENU PLUGINS*/,
+#menu-users/*MENU USUARIOS*/,
+#menu-tools/*MENU HERRAMIENTAS*/,
+#menu-settings/*MENU CONFIGURACION*/,
+.wp-submenu/*SUB MENUS*/,
+#collapse-menu/*COLLAPSE MENUS*/ {
+	display: none !important;
+}
+/* ==========================================================================
+   MENU PAGINAS
+   ========================================================================== */
+#screen-meta-links/*OPCIONES EN LA PARTE SUPERIOR*/,
+.row-actions/*OPCIONES AL HACER HOVER POR EL TITULO*/,
+.column-author/*COLUMNA AUTOR*/,
+.column-comments/*COLUMNA COMENTARIOS*/,
+.column-date/*COLUMNA FECHA*/,
+#filter-by-date,#post-query-submit/*FILTRO POR FECHA*/,
+#postbox-container-2/*SECCIONES EXTRA*/ {
+	display: none !important;
+}
+/* ==========================================================================
+   EDITOR DE PAGINAS
+   ========================================================================== */
+#titlediv .inside/*CAMBIO DE LINK*/,
+.misc-pub-curtime/*CAMBIAR FECHA EN SECTOR DE PUBLICAR*/,
+.misc-pub-visibility/*CAMBIAR VISIBILIDAD EN SECTOR DE PUBLICAR*/,
+#pageparentdiv .inside p/*TODOS LOS PARRAFOS EN ATRIBUTOS DE LA PAGINA (DONDE SE SELECCIONA LA PAGINA PADRE)*/ {
+	display: none !important;
+}
+/* ==========================================================================
+   OPLOAD EN IMAGENES
+   ========================================================================== */
+.media-menu/*MENU LATERAL*/,
+.media-frame-menu/*MARGEN LATERAL AL QUITAR EL MENU*/ {
+	display: none !important;
+}
+.media-frame-menu, .media-frame-title, .media-frame-router, .media-frame-content, .media-frame-toolbar, .media-frame-uploader {
+	left: 0;
+}
+/* ==========================================================================
+   SECCIONES EN "PERSONALIZAR"
+   ========================================================================== */
+#customize-info/*PRIMERA SECCION DE INFORMACION*/,
+#accordion-section-title_tagline/*SECCION TITULO*/,
+#customize-control-show_on_front .customize-control-title /*TITULO DE OPCIONES PARA "ULTIMOS POST" O "PAGINA ESTATICA"*/,
+#customize-control-page_on_front .customize-control-title /*TITULO DE SELECCIONAR PAGINA EN SECCION HOME*/,
+#customize-control-show_on_front label:nth-of-type(1) /*PRIMER OPCION PARA "ULTIMOS POST"*/,
+#customize-control-page_for_posts /*SEGUNDA DROPDOWN EN SELECCION DE HOME*/
+{
+	display: none !important;
+}
